@@ -1,0 +1,9 @@
+.menu{
+    display: flex;
+}
+.li1{
+    margin-right: 30px;
+}
+.imgcat{
+    width: 350px;
+}
