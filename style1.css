@@ -17,6 +17,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
+body {
+    background-color: #eff0f3;
+}
+
 .logo_it_website
 {
     text-decoration: none;
@@ -348,7 +352,8 @@ footer {
     width: 1224px;
 }
 
-.h2_footer {
+.h2_footer
+{
     padding-top: 10px;
     width: 160px;
     font-weight: 400;
@@ -358,10 +363,7 @@ footer {
     color: #FFFFFF;
 }
 
-.blue_text {
-    color: #2D66EE;
-}
-
-body {
-    background-color: #f2f4f7;
+.blue_text
+{
+    color: #1e56ec;
 }
