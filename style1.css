@@ -313,11 +313,6 @@
     font-size: 17px;
 }
 
-.web_list li:last-child:after, .mobile_list li:last-child:after
-{
-    content: "";
-}
-
 .web_list, .mobile_list
 {
     display: flex;
@@ -361,8 +356,6 @@
     padding-top: 80px;
     padding-bottom: 82px;
 }
-
-
 
 .link_list {
     display: flex;
@@ -674,7 +667,7 @@ footer {
 }
 
 
-.h2__footer {
+.h2_footer {
     padding-top: 10px;
     width: 160px;
     font-weight: 400;
@@ -684,14 +677,10 @@ footer {
     color: #FFFFFF;
 }
 
-.blue__text {
+.blue_text {
     color: #2D66EE;
 }
 
 body {
     background-color: #f2f4f7;
-}
-
-.footer__mobile {
-    display: none;
 }
