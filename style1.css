@@ -296,6 +296,128 @@ body {
     background-position: right;
 }
 
+
+
+.web_header, .mobile_header
+{
+    width: 496px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101828;
+}
+
+.web_list li, .mobile_list li
+{
+    display: flex;
+    text-decoration: none;
+    color: #344054;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.web_list li:after, .mobile_list li:after
+{
+    content: "/";
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #2D66EE;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.web_list, .mobile_list
+{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: #344054;
+    width: 496px;
+}
+
+.button_text_consultation
+{
+    width: 84px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.introduction_and_connection {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url("src/assets/styles/Group.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.development_cycle
+{
+    background: white;
+    margin: 0;
+    padding-left: 108px;
+    padding-top: 80px;
+    padding-bottom: 82px;
+}
+
+.link_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    position: absolute;
+    width: 233px;
+    left: 836px;
+    top: 980px;
+}
+
+.link_list li a {
+    text-decoration: none;
+    color: #1D2939;
+}
+
+.link_list li a:visited, .link_list li a:focus {
+    color: #1D2939;
+}
+
+.link_list li:hover {
+    text-decoration: none;
+    color: #1D2939;
+    border-bottom: #2D66EE 1px solid;
+    font-weight: bold;
+}
+
+.link_list li {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D2939;
+}
+
+.link_list li:after {
+    content: url("scr/assets/styles/Icon Color (2).svg");
+    padding-left: 21px;
+}
+
+
+
+
+
 footer {
     width: 1224px;
     left: 108px;
