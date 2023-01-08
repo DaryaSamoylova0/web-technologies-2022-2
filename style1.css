@@ -1,4 +1,5 @@
-@import "src/assets/styles/fonts.css";
+@import url('src/assets/styles/fonts.css');
+
 .header
 {
     display: flex;
@@ -19,6 +20,10 @@
 
 body {
     background-color: #eff0f3;
+}
+
+.button_menu {
+    display: none;
 }
 
 .logo_it_website
@@ -410,8 +415,8 @@ body {
 }
 
 .link_list li:after {
-    content: url("scr/assets/styles/Icon Color (2).svg");
-    padding-left: 21px;
+    content: url("src/assets/styles/img/IconColor(2).svg");
+    padding-left: 17px;
 }
 
 
@@ -476,7 +481,7 @@ footer {
 
 .h2_footer
 {
-    padding-top: 10px;
+    padding-top: 0;
     width: 160px;
     font-weight: 400;
     font-size: 13px;
