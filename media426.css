@@ -1,0 +1,100 @@
+@media (max-width: 426px)
+{
+    .email_logo
+    {
+        display: none;
+    }
+
+    .header
+    {
+        justify-content: normal;
+        width: 426px;
+    }
+
+    .introduction
+    {
+        left: 35px;
+    }
+
+    .introduction_big
+    {
+        font-size: 28px;
+        width: 383px;
+    }
+
+    .connection_information
+    {
+        font-size: 16px;
+    }
+
+    .connection
+    {
+        width: 350px;
+        left: 28px;
+    }
+
+
+
+    .introduction_big
+    {
+        width: 380px;
+    }
+
+    .development_cycle
+    {
+        padding-bottom: 330px;
+        width: 426px;
+    }
+
+    .link_list
+    {
+        position: unset;
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .web_header
+    {
+        width: 375px;
+    }
+
+    .mobile_header
+    {
+        width: 375px;
+    }
+
+    .footer_names
+    {
+        width: 375px;
+    }
+
+    .footer_info
+    {
+        width: 375px;
+    }
+
+
+
+    .footer
+    {
+        width: 410px;
+    }
+
+    .footer_inf
+    {
+        width: auto;
+    }
+
+    .footer_names, .footer_info
+    {
+        width: 426px;
+    }
+
+    .footer
+    {
+        max-width: 426px;
+        height: 280px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
