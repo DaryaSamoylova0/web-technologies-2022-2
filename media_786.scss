@@ -178,4 +178,180 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
+
+
+
+  .close-button__menu {
+    display: flex;
+    position: relative;
+    right: -200px;
+    top: -40px;
+    border: none;
+    text-decoration: none;
+    background: white;
+    align-content: center;
+    width: 25px;
+    height: 25px;
+  }
+  .mobile__menu {
+    display: flex;
+    z-index: 1000;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 762px;
+    justify-content: center;
+  }
+  .mobile__menu-links {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobile__menu-links li {
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    align-self: center;
+    justify-content: center;
+  }
+  .mobile__menu-links a {
+    border: none;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #101828;
+  }
+  .main__logo-mobile-li {
+    padding-bottom: 52px !important;
+  }
+  .main__logo-mobile-li a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.154px;
+    color: #2D66EE;
+  }
+  .mobile__menu-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 38px;
+    padding: 0;
+  }
+  .contacts-item .email__icon {
+    padding-right: 14px;
+  }
+  .mobile__menu-contacts .contacts-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .contacts-item li {
+    display: flex;
+  }
+  .contacts-item .number {
+    width: 140px;
+  }
+  .contacts-item li a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #2D66EE;
+  }
+
+  .button__sliders-block {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .button__sliders-list {
+    padding-left: 0;
+    gap: 26px;
+  }
+  .button__view-more {
+    display: flex;
+    justify-content: end;
+    padding-right: 32px;
+  }
+  .button__view-more-small-screen {
+    display: none;
+  }
+  .button__sliders-block img {
+    display: none;
+  }
+  .discuss-project__block {
+    padding-left: 33px;
+    padding-bottom: 32px;
+  }
+  .discuss-project__block .feedback {
+    position: unset;
+    width: 600px;
+    height: 190px;
+  }
+  .discuss-project__block .consultation {
+    flex-direction: row;
+  }
+  .development-stages__block {
+    padding-left: 33px;
+    width: auto;
+  }
+  .stage-sub__block {
+    margin-right: 0;
+    width: 640px;
+  }
+  .team__block {
+    padding-left: 33px;
+    width: auto;
+  }
+  .desktop__image {
+    display: none;
+  }
+  .mobile__image {
+    display: flex;
+  }
+  .getbook__block {
+    padding-left: 33px;
+    width: auto;
+  }
+  .book__image {
+    width: 344px;
+  }
+  .getbook__block .feedback {
+    width: 340px;
+  }
+  .getbook__block .consultation {
+    gap: 55px;
+  }
+  .getbook__block .description__big {
+    width: 368px;
+  }
+  .getbook__block .button__discuss-block {
+    justify-content: center;
+  }
+  .FAQ {
+    padding-left: 33px;
+    width: auto;
+  }
+  .FAQ__subBlocks {
+    height: 480px;
+  }
+  .team__block img {
+    padding: 0;
+  }
+  .main-data-stages__block {
+    height: unset;
+  }
 }
