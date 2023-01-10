@@ -98,276 +98,186 @@
     border-bottom-right-radius: 0;
   }
 
-
-
-
-  .close-button__menu {
-    display: flex;
-    position: relative;
-    right: -160px;
-    top: -40px;
-    border: none;
-    text-decoration: none;
-    background: white;
-    align-content: center;
-    width: 25px;
-    height: 25px;
-  }
-  .mobile__menu-links a {
-    border: none;
-    text-decoration: none;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 144%;
-    letter-spacing: 0.326451px;
-    color: #101828;
-  }
-  .main__logo-mobile-li a {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 18px;
-    letter-spacing: -0.154px;
-    color: #2D66EE;
-  }
-  .mobile__menu-contacts {
-    flex-direction: column;
-  }
-  .email__small-screen {
-    display: none;
-  }
-  .Header {
-    justify-content: normal;
-    width: 100%;
-  }
-  .description {
-    left: 32px;
-    padding-bottom: 250px;
-  }
-  .description__big {
-    font-size: 28px;
-    width: 380px;
-  }
-  .feedback {
-    width: 345px;
-    left: 24px;
-  }
-  .moving__images {
-    max-width: 370px;
-    top: 400px;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    z-index: -1;
-    height: 536px;
-    transform: rotate(-12deg);
-    overflow: hidden;
-  }
-  .moving__images div:nth-child(1) {
-    content: "";
-    background-size: 250px;
-    background-image: url("pictures/column-left.webp");
-    background-repeat: repeat-y;
-    position: relative;
-    width: 210px;
-    height: 3960px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    animation: move 25s infinite;
-  }
-  .moving__images div:nth-child(2) {
-    content: "";
-    background-size: 150px;
-    background-image: url("pictures/column-right.webp");
-    background-repeat: repeat-y;
-    position: relative;
-    height: 3960px;
-    width: 150px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    animation: move_reverse 25s infinite;
-  }
-  .feedback__text {
-    font-size: 16px;
-  }
-  .LinksTech__list {
-    position: unset;
-    display: flex;
-    padding: 0;
-    padding-top: 32px;
-  }
-  .development-cycle__block {
-    padding-bottom: 344px;
-  }
-  .Developed__projects-block {
+  .developed_projects
+  {
     padding-left: 18px;
     padding-top: 32px;
   }
-  .description__big-projects-blog {
-    margin: 0;
-    width: 350px;
-    font-size: 28px;
-  }
-  .Webtech__head, .Mobiletech__head {
-    width: 375px;
-  }
-  .Projects__list li {
+  .project_list li
+  {
     font-size: 14px;
     width: 200px;
     padding-top: 15px;
   }
-  .Projects__list li img {
+
+  .project_list li img
+  {
     width: 44px;
     height: 44px;
   }
-  .projects-example__block {
+
+  .projects_proud
+  {
     padding-left: 18px;
     background: none;
   }
-  .button__sliders-block {
+  .project_proud
+  {
     display: flex;
     justify-content: center;
   }
-  .button__sliders-list {
+
+  .menu_2
+  {
     flex-wrap: wrap;
   }
-  .button__view-more {
-    display: none;
+
+  .view_projects
+  {
     justify-content: center;
     padding-left: 0;
   }
-  .button__view-more-text {
-    width: 500px;
-    padding-left: 5px;
+
+  .button_text_consultation
+  {
+    width: 200px;
   }
-  .button__view-more-small-screen {
-    display: flex;
-  }
-  .button__sliders-block img {
-    display: flex;
-    justify-content: left;
-  }
-  .discuss-project__block .feedback {
-    position: unset;
+
+  .lets_discuss .form
+  {
     width: 330px;
-  }
-  .discuss-project__block {
-    height: unset;
-  }
-  .discuss-project__block .consultation {
     flex-direction: column;
-    justify-content: center;
   }
-  .button__discuss-block {
+
+  .button_consultation
+  {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
   }
-  .discuss-project__block h2 {
-    padding-top: 32px;
-  }
-  .discuss-project__block p {
+
+  .lets_discuss p
+  {
     color: white;
     width: 320px;
-    padding-top: 32px;
-    padding-bottom: 128px;
   }
-  .footer__names, .footer__info {
-    width: 375px;
-  }
-  .description {
-    width: 380px;
-  }
-  .discuss-project__block {
+
+
+  .lets_discuss
+  {
     padding-left: 18px;
   }
-  .development-stages__block {
+
+
+  .development_dev_stages
+  {
     padding-left: 18px;
   }
-  .team__block {
+
+  .our_team_block
+  {
     padding-left: 18px;
   }
-  .team__block p {
+
+  .our_team_block p
+  {
     width: 376px;
   }
-  .team__statistics {
+
+  .statistic_big
+  {
     max-width: 376px;
-    gap: 100px;
   }
-  .team__statistics li {
+
+  .statistic_big li
+  {
     font-size: 28px;
   }
-  .team__statistics-name {
+
+  .statistic_small
+  {
     display: flex;
   }
-  .team__statistics-name li {
+
+  .statistic_small li
+  {
     display: flex;
     color: #667085;
     font-size: 14px;
   }
-  .team__statistics-name li:nth-child(2) {
-    padding-left: 80px;
+
+  .statistic_small
+  {
+    max-width: 376px;
   }
-  .team__statistics-name li:nth-child(3) {
-    padding-left: 80px;
+
+  .our_team_block img
+  {
+    width: 392px;
+    height: 237px;
   }
-  .getbook__block {
+
+  .item_block
+  {
+    max-width: 333px;
+  }
+
+  .get_the_book
+  {
     height: unset;
     padding-left: 18px;
     justify-content: center;
   }
-  .getbook__block img {
-    width: 160.22px;
-    height: 242.31px;
-  }
-  .desktop1__image {
-    display: none;
-  }
-  .getbook__block .mobile1__image {
+
+  .get_the_book img
+  {
+    width: 160px;
+    height: 242px;
     padding-left: 120px;
-    padding-top: 32px;
+    padding-top: 100px;
   }
-  .getbook__block .consultation {
-    gap: 66px;
+
+  .get_the_book .feedback
+  {
+    width: 328px;
   }
-  .getbook__block h2 {
-    padding-left: 48px;
+
+  .get_the_book .form
+  {
+    gap: 60px;
   }
-  .getbook__block .button__discuss-block {
-    justify-content: left;
-  }
-  .mobile1__image {
-    display: flex;
-  }
-  .team__statistics-name {
-    max-width: 376px;
-  }
-  .team__block img {
-    width: 392px;
-    height: 237px;
-  }
-  .stage-sub__block {
-    max-width: 333px;
-  }
-  .FAQ {
+
+  .get_the_book h2
+  {
     padding-left: 18px;
-    height: unset;
   }
-  .FAQ__subBlocks {
-    height: unset;
+
+
+
+
+  .FAQ
+  {
+    padding-left: 18px;
+
   }
-  .FAQ h3 {
-    min-width: 300px;
-    width: 100px;
-  }
-  .FAQ__subBlock {
+
+  .FAQ_item
+  {
     min-width: 350px;
     max-width: 410px;
     width: 100px;
   }
+
+  .FAQ_items
+  {
+    height: unset;
+  }
+
+  .FAQ h3
+  {
+    min-width: 310px;
+    width: 100px;
+  }
+
+
 }

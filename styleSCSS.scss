@@ -1,5 +1,12 @@
 @import url('src/assets/styles/static/fontsSCSS.css');
 
+.menu_2
+{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+}
 .header
 {
   display: flex;
@@ -857,11 +864,6 @@ footer {
 .get_the_book button
 {
   width: 225px;
-}
-
-.mobile_img
-{
-  display: none;
 }
 
 .feedback
