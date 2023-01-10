@@ -124,7 +124,8 @@ function init() {
 
         this.renderChildren = function (data)
         {
-            let objectt ='<div class="list-item__inner">'
+            let objectt = ' ';
+            objectt +='<div class="list-item__inner">'
                 +'<div class="list-item__space">'
                 +'</div>'
                 +'<img class="list-item__folder" src="img/folder.png" alt="folder">'
